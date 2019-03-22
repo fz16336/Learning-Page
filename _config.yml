@@ -16,7 +16,7 @@
 title: Learning Page
 email: fz16336@my.bristol.ac.uk
 description:
-baseurl: "farrelzulkarnaen.github.io" # the subpath of your site, e.g. /blog
+baseurl: "Learning-Page" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  fz16336

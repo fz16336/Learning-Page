@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Machine Learning from a Bayesian perspective!"
+title:  "Machine Learning from a Bayesian perspective"
 date:   2019-03-21 00:28:14 +0000
 categories: jekyll update
 ---

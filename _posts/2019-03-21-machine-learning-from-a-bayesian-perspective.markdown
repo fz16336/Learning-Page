@@ -32,11 +32,25 @@ $$ P(\mathbf{W}|\mathbf{X}) = \frac{P(\mathbf{X}|\mathbf{W})P(\mathbf{W})}{P(\ma
 
 If I roll a dice a 1000 times, and every time it lands on a 1, any reasonable person would suspect that there is something wrong with the dice. After all, basic probability would tell us that each side should have a uniform probability distribution of 1/6; **assuming** that it is a fair dice. However, if I were to feed this information to a machine that only deals in absolute, i.e. can only understand frequencies of events, then it will guess that the next roll will also land on a 1 with 100% certainty.
 
-If we were to design an AI that thinks like so, well then it's not very intelligent. After all it cannot reflect on their choice and contemplate as it have no belief in anything. However, if we encode a some *prior* knowledge, a prior belief if you will, on the distribution of the likely outcomes, then it will then be able to reflect on whether or not the outcome would make sense. 
+If we were to design an AI that thinks like so, well then it's not very intelligent. After all it cannot reflect on its choices and contemplate as it have no belief in anything. However, if we teach it some *prior* knowledge, a prior belief if you will, on the distribution of the likely outcomes, then it will then be able to reflect on whether or not the outcome would make sense.
+
+To elaborate, let us use a simple linear regression model as our example. Regression is a good starting point as it is one of the common topic taught in A-level or high school statistics. From a frequentist approach, in a regression problem you would be asked to find the best fit line that describes the correlation between $x$ and $y$ (typically using OLS). But in machine learning, we often care more about learning how the patterns/correlations came to be. Specifically, we care about the parameters that define the structure of the function in the model, i.e. how exactly is $y$ mapped onto $x$.
+
+$$ y = w_{0} + w_{1}x $$
+
+In a simple linear regression as above, the parameters are the weights $w_{0}$ and $w_{1}$, where $w_{0}$ is the bias or offset parameter (y-axis intercept) whilst $w_{1}$ is the gradient parameter. These two parameters are what determine the exact structure of the best-fit line we have all come to know. Let us now define a joint distribution for our two parameters denoted as $P(\mathbf{W})$. However, when playing with probability there are many uncertainties that can arise, one of which is the uncertainty that the data itself can be corrupted. To take into consideration of errors/noise in the data, let us make an assumption that there is an additive noise in our model denoted as $\epsilon$.
+
+$$ y = w_{0} + w_{1}x + \epsilon$$
+
+Where can assume that the noise is normally distributed with mean vector $\mathbf{0}$ and variances $\mathbf{\sigma^{2}\mathbf{I}}$. And by conjugacy [link], we can therefore also assume that the joint distribution for our parameters would be Gaussian too.
+
+As previously stated, we need to first acquire a prior belief. In order to possess a prior distribution for our parameters, let us make another intial assumption that both parameters are independent. i.e. their joint distribution would entail a spherical covariance matrix, meaning there are zero covariances for all values of $w_{0}$ and $w_{1}$. This would also entail an equal spread of uncertainty in both axes, which would also make sense since
+a prior belief is what you would belief initially before seeing any data, and if you haven't seen any data then of course you would equally be uncertain of the values $w_{0}$ and $w_{1}$. However, as you see more and more data you would then be able to see a pattern. Once you see how $x$ and $y$ correlates, the uncertainty in your prior distribution diminishes and equally you become more certain of the true value of both the parameters $w_{0}$ and $w_{1}$ that defines the true best-fit line of the data. This is better illustrated in the graphs below.
 
 ![Posterior](/Learning-Page/assets/Posterior.png)
 ![Prior](/Learning-Page/assets/PriorDistributions.png)
 
+Take note as you observe more and more data, you start to *learn* the relation of the variables in the data better. And at every turn that you see more data, what you believed at the start (your prior) changes, and you then acquire a new update belief which we called your *posterior.* This whole process of updating your beliefs from prior to posterior and again and again is what *learning* is about. This is no different than how we humans learn, we all have some initial belief about something, and we either observe more information that confirms our beliefs or changes them. This is what it means to view machine learning from a Bayesian perspective.
 
 -- to be completed --
 

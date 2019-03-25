@@ -23,9 +23,12 @@ A model is a simplified framework of the real-world, with layers of abstraction 
 
 Many of us were introduced to the concept of probabilities from a 'frequentist' perspective, i.e. we viewed probabilities as mere frequencies of events for random variables. However, this is too limited for machine learning purposes, as we want to make inference over things that we have not observe yet, and so we must now view things from the Bayesian point of view. And from a Bayesian perspective, we can interpret probabilities as **beliefs** in a variable, allowing us to put semantics onto the terms in Baye's Rule as *Posterior*, *Likelihood*, *Prior*, and *Evidence*.
 
-$$ P(\mathbf{W}|\mathbf{X}) = \frac{P(\mathbf{X}|\mathbf{W})P(\mathbf{W})}{P\mathbf{X}} $$
+$$ P(\mathbf{W}|\mathbf{X}) = \frac{P(\mathbf{X}|\mathbf{W})P(\mathbf{W})}{P(\mathbf{X})} $$
 
 ## The maths
+
+<a class="large" href="/contrast-demo/assets/swiss-alps.jpg">![Swiss Alps](https://github.com/fz16336/Machine-Learning/blob/master/courseworks/Coursework1/Figures/PriorDistributionW0.png)</a>
+
 
 -- to be completed --
 

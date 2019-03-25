@@ -16,7 +16,7 @@ But what is machine learning? To put it simply machine learning is a subset of t
 With that being said, humans -in away- are like programmable machines too. Our personalities define who we are and yet they are subject to change, dependent on our environment and upbringing. We are programmed, be it from nature, nurture or even both. But of course, there is so much more than that to what makes one human. A whole series of unanswerable existential questions make up what it truly means to be human. Such complex ideas like emotions, consciousness, and free-will are to hard to quantify, and much less capable of being boiled down to statistics. But we don't need to model the entire human brain to create an AI. All we seek is to build smarter computers that can understand the semantics in the data they process ... to a certain extent. After all, the whole point of modelling something is to do away with all that is unnecessary or hard to grasp, and simply focus on the easy stuff.
 
 > All models are wrong, but some are useful.
-> --------------------------- _George Box_
+>                            – _George Box_
 
 A model is a simplified framework of the real-world, with layers of abstraction to only account for the relevant; enabling us to limit the uncertainty around. Much as how humans learn, machines learn the same way. We make assumptions and build models of how the world works based on our beliefs of how it should be, but as we see new information our beliefs can change; adjusting our perspective - such is the process of learning.
 

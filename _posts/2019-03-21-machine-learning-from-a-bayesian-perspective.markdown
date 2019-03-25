@@ -7,7 +7,7 @@ mathjax: true
 ---
 Artificial Intelligence, machine learning, and robotics. All buzzwords that have seen a surge in popularity admits the turn of the 21st century. With recent advancement in big data analytics and computational power, our current understanding of how data can shape our lives have changed. From social media trends, fake news, to changes in laws concerning data privacy, it is clear that our world is changing, and at the centre of all this hype: machine learning.
 
-![Trend](/assets/trend.png)
+![Trend](https://github.com/fz16336/Machine-Learning/blob/master/courseworks/Coursework1/Figures/Likelihood1.png)
 
 <!-- <div class="embed">
   <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1754_RC01/embed_loader.js"></script>

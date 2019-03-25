@@ -7,6 +7,8 @@ mathjax: true
 ---
 Artificial Intelligence, machine learning, and data science. All buzzwords that have seen a surge in popularity admits the turn of the 21st century. With recent advancement in big data analytics and computational power, our current understanding of how data can shape our lives have changed. From social media trends, fake news, to changes in laws concerning data privacy, it is clear that our world is changing, and at the centre of all this hype: machine learning.
 
+![Trend](/Learning-Page/assets/trend.png)
+
 But what is machine learning? To put it simply machine learning is a subset of the field of artificial intelligence (AI). It refers to the notion of being able to infer something new from recognising patterns in data. It is the idea that we can teach systems of machines the ability to automatically learn and make meaningful decisions based on said data; without being explicitly programmed. But at the end of the day, it's all just probabilities and statistics ... but also slightly more. To understand what machine learning is truly capable of, as apposed to frequentist statistics, we need to take a step back from the rigid mathematical framework that defines the algorithms, and look at the philosophical intuition behind machine learning first. To start let us ask ourselves, what is learning? How do we humans learn? And can we mimic the learning process to teach machines to do the same? If so, this may enables us to build smarter systems and computers.
 
 ## The philosophy
@@ -27,6 +29,7 @@ $$ P(\mathbf{W}|\mathbf{X}) = \frac{P(\mathbf{X}|\mathbf{W})P(\mathbf{W})}{P(\ma
 
 ## The maths
 
+![Posterior](/Learning-Page/assets/Posterior.png)
 ![Prior](/Learning-Page/assets/PriorDistributions.png)
 
 

@@ -7,7 +7,14 @@ mathjax: true
 ---
 Artificial Intelligence, machine learning, and robotics. All buzzwords that have seen a surge in popularity admits the turn of the 21st century. With recent advancement in big data analytics and computational power, our current understanding of how data can shape our lives have changed. From social media trends, fake news, to changes in laws concerning data privacy, it is clear that our world is changing, and at the centre of all this hype: machine learning.
 
-![Trend](/learning-page/assets/trend.png)
+![Trend](/Github/learning-page/assets/trend.png)
+
+<div class="embed">
+  <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1754_RC01/embed_loader.js"></script>
+  <script type="text/javascript">
+    trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/01hyh_","geo":"","time":"2004-01-01 2019-03-25"},{"keyword":"/m/0jt3_q3","geo":"","time":"2004-01-01 2019-03-25"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=%2Fm%2F01hyh_,%2Fm%2F0jt3_q3","guestPath":"https://trends.google.com:443/trends/embed/"});
+  </script>
+</div>
 
 But what is machine learning? To put it simply (albeit a bit frank), it's statistics. However, statistics have been around since the days we invented counting, then what makes machine learning different? Machine learning refers to the notion of inferring patterns in data, by making assumptions, building models based on them, and testing our hypothesis as we see new observation. To actually see the difference in machine learning as oppose to regular statistics, we need to take a step back from the rigid mathematical framework that defines the algorithms, and look at the philosophical intuition behind machine learning. To start let us ask ourselves, what is learning? How do we as humans learn? And how can we mimic the learning process so machines can do the same? Enabling us to build smarter systems and computers.
 

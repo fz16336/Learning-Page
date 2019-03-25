@@ -38,7 +38,7 @@ To elaborate, let us use a simple linear regression model as our example. Regres
 
 $$ y = w_{0} + w_{1}x $$
 
-In a simple linear regression as above, the parameters are the weights $w_{0}$ and $w_{1}$, where $w_{0}$ is the bias or offset parameter (y-axis intercept) whilst $w_{1}$ is the gradient parameter. These two parameters are what determine the exact structure of the best-fit line we have all come to know. Let us now define a joint distribution for our two parameters denoted as $P(\mathbf{W})$. However, when playing with probability there are many uncertainties that can arise, one of which is the uncertainty that the data itself can be corrupted. To take into consideration of errors/noise in the data, let us make an assumption that there is an additive noise in our model denoted as $\epsilon$.
+In a simple linear regression as above, the parameters are the weights $w_{0}$ and $w_{1}$, where $w_{0}$ is the bias or offset parameter (y-axis intercept) whilst $w_{1}$ is the gradient parameter. These two parameters are what determine the exact structure of the best-fit line we have all come to know. Let us now define a joint distribution for our two parameters denoted as $$P(\mathbf{W})$$. However, when playing with probability there are many uncertainties that can arise, one of which is the uncertainty that the data itself can be corrupted. To take into consideration of errors/noise in the data, let us make an assumption that there is an additive noise in our model denoted as $\epsilon$.
 
 $$ y = w_{0} + w_{1}x + \epsilon$$
 

@@ -27,7 +27,7 @@ $$ P(\mathbf{W}|\mathbf{X}) = \frac{P(\mathbf{X}|\mathbf{W})P(\mathbf{W})}{P(\ma
 
 ## The maths
 
-[![Prior](/Learning-Page/assets/PriorDistributions.jpg)](/Learning-Page/assets/PriorDistributions.jpg)
+[![Prior](/Learning-Page/assets/PriorDistributions.png)](/Learning-Page/assets/PriorDistributions.png)
 
 [Prior](https://github.com/fz16336/Machine-Learning/blob/master/courseworks/Coursework1/Figures/PriorDistributionW0.png)
 

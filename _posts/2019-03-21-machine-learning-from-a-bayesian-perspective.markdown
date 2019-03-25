@@ -8,10 +8,11 @@ mathjax: true
 Artificial Intelligence, machine learning, and data science. All buzzwords that have seen a surge in popularity admits the turn of the 21st century. With recent advancement in big data analytics and computational power, our current understanding of how data can shape our lives have changed. From social media trends, fake news, to changes in laws concerning data privacy, it is clear that our world is changing, and at the centre of all this hype: machine learning.
 
 ![Trend](/Learning-Page/assets/trend.png)
+###### *Google search trends on machine learning (blue) and data science (red) over the past 15 years.*
 
 But what is machine learning? To put it simply machine learning is a subset of the field of artificial intelligence (AI). It refers to the notion of being able to infer something new from recognising patterns in data. It is the idea that we can teach systems of machines the ability to automatically learn and make meaningful decisions based on said data; without being explicitly programmed. But at the end of the day, it's all just probabilities and statistics ... but also slightly more. To understand what machine learning is truly capable of, as apposed to frequentist statistics, we need to take a step back from the rigid mathematical framework that defines the algorithms, and look at the philosophical intuition behind machine learning first. To start let us ask ourselves, what is learning? How do we humans learn? And can we mimic the learning process to teach machines to do the same? If so, this may enables us to build smarter systems and computers.
 
-## The philosophy
+## **The philosophy**
 
 I believe that the basis of learning itself comes from observing new information. As one see something new, we can infer about something new as well. This is no different than how data becomes the central focus of machine learning. There are 2 common facets in machine learning: *supervised learning* vs. *unsupervised Learning*. To give an analogy based on how we humans learn, think of supervised learning as learning from guidance. Similar to how our parents have guided us as we grow, they helped us determine what is right or wrong, and what is useful or not. We have come to learn what holds meaning in our lives through the 'labels' taught by our parents. On the other hand, unsupervised learning is like perceiving the world through our own eyes, making decisions and inference based on how we personally interpret the information around us.
 
@@ -27,7 +28,11 @@ Many of us were introduced to the concept of probabilities from a 'frequentist' 
 
 $$ P(\mathbf{W}|\mathbf{X}) = \frac{P(\mathbf{X}|\mathbf{W})P(\mathbf{W})}{P(\mathbf{X})} $$
 
-## The maths
+## **The maths**
+
+If I roll a dice a 1000 times, and every time it lands on a 1, any reasonable person would suspect that there is something wrong with the dice. After all, basic probability would tell us that each side should have a uniform probability distribution of 1/6; **assuming** that it is a fair dice. However, if I were to feed this information to a machine that only deals in absolute, i.e. can only understand frequencies of events, then it will guess that the next roll will also land on a 1 with 100% certainty.
+
+If we were to design an AI that thinks like so, well then it's not very intelligent. After all it cannot reflect on their choice and contemplate as it have no belief in anything. However, if we encode a some *prior* knowledge, a prior belief if you will, on the distribution of the likely outcomes, then it will then be able to reflect on whether or not the outcome would make sense. 
 
 ![Posterior](/Learning-Page/assets/Posterior.png)
 ![Prior](/Learning-Page/assets/PriorDistributions.png)
@@ -43,7 +48,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %} -->
 
-Meanwhile check out my report on [Bayesian Modelling][jekyll-docs] for more info on Bayesian approaches in machine learning, and also how we make [inference][jekyll-gh] after building our models.
+Meanwhile check out my report on [Bayesian modelling][jekyll-docs] for more info on Bayesian approaches in machine learning, and also how we make [inference][jekyll-gh] after building our models.
 
 [jekyll-docs]: https://github.com/fz16336/Machine-Learning/blob/master/courseworks/Coursework1/Bayesian_modelling.pdf
 [jekyll-gh]:   https://github.com/fz16336/Machine-Learning/blob/master/courseworks/Coursework2/Inference.pdf
